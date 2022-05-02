@@ -76,7 +76,7 @@ export class ClassContainer<T extends ClassDescriptor> {
 	protected async loadDirs(): Promise<Ctor<T>[]> {
 		const dirsSubclasses = await Promise.all(this.dirPaths.map((dirPath) => this.loadClassesFromDir(dirPath, this.type)));
 
-		const allSubclasses = ([] as Ctor<T>[]).concat(...dirsSubclasses);
+		const allSubclasses = dirsSubclasses.flat();
 
 		return allSubclasses;
 	}

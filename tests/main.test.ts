@@ -1,4 +1,5 @@
 import { importClasses } from '$/index';
+import { describe, expect, it } from 'vitest';
 import AbstractClass1 from './components/AbstractClass1';
 import SubClass1 from './components/SubClass1';
 
