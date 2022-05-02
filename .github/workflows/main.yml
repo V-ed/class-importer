@@ -7,7 +7,7 @@ on:
       - 'tests/**'
       - 'pnpm-lock.yaml'
       - 'tsconfig.json'
-      - '.github/workflows/main-api.yml'
+      - '.github/workflows/main.yml'
 
 env:
   NODE_VERSION: '16'
