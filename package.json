@@ -1,6 +1,6 @@
 {
   "name": "class-importer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "node js class importer - import default classes of folder and subfolders based on class",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
