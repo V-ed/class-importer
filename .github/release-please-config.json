@@ -1,5 +1,4 @@
 {
-	"bootstrap-sha": "7a6ddd5e62daed991bcba0bdf15266d95378963d",
 	"release-type": "node",
 	"bump-minor-pre-major": true,
 	"monorepo-tags": true,
