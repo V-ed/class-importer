@@ -42,6 +42,23 @@ jobs:
         run: |
           echo ::set-output name=git_head_sha::"$(git rev-parse HEAD)"
 
+      - name: Retrieve pnpm modules
+        uses: actions/cache@v3
+        with:
+          path: ~/.pnpm-store
+          key: install-${{ env.NODE_VERSION }}-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            install-${{ env.NODE_VERSION }}-${{ runner.os }}-
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: ${{ env.PNPM_VERSION }}
+          run_install: true
+
+      - name: Build
+        run: pnpm run build
+
       - name: Publish to NPM
         id: publish
         uses: JS-DevTools/npm-publish@v1
