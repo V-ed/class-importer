@@ -6,6 +6,10 @@ on:
       - 'master'
   workflow_dispatch:
 
+env:
+  NODE_VERSION: '16'
+  PNPM_VERSION: 6
+
 jobs:
   release:
     name: Release Please
@@ -36,6 +40,9 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
 
       - name: Get git HEAD sha
         id: commit-vars
