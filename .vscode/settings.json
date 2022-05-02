@@ -54,5 +54,5 @@
 		}
 	],
 	"typescript.tsdk": "node_modules/typescript/lib",
-	"jest.jestCommandLine": "npm test --"
+	"vitest.enable": true,
 }
