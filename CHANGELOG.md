@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.1...class-importer-v0.1.2) (2022-05-03)
+
+
+### Bug Fixes
+
+* allow both esm and commonjs usage ([a3daba3](https://github.com/V-ed/class-importer/commit/a3daba314423bf2eb53d3301de6bfa700b82d12a))
+
 ### [0.1.1](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.0...class-importer-v0.1.1) (2022-05-02)
 
 
