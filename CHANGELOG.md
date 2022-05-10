@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.3](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.2...class-importer-v0.1.3) (2022-05-10)
+
+
+### Bug Fixes
+
+* **build:** move to esbuild and tweak using latest changes ([9de8f28](https://github.com/V-ed/class-importer/commit/9de8f2887ff7247685c9c1a0780be9516abd95ad))
+
 ### [0.1.2](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.1...class-importer-v0.1.2) (2022-05-03)
 
 
