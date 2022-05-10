@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.4](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.3...class-importer-v0.1.4) (2022-05-10)
+
+
+### Bug Fixes
+
+* tweak build target to es2020 ([dc7ef97](https://github.com/V-ed/class-importer/commit/dc7ef973881fd0b82581a0ec87e0f019f8cf4e1a))
+
 ### [0.1.3](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.2...class-importer-v0.1.3) (2022-05-10)
 
 
