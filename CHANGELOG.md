@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.8](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.7...class-importer-v0.1.8) (2022-05-10)
+
+
+### Reverts
+
+* fix: build esm module instead of commonjs ([24875b8](https://github.com/V-ed/class-importer/commit/24875b8cc35eb0ec349562f49eddab39bacf728d))
+
 ### [0.1.7](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.6...class-importer-v0.1.7) (2022-05-10)
 
 
