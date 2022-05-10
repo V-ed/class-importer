@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.5](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.4...class-importer-v0.1.5) (2022-05-10)
+
+
+### Bug Fixes
+
+* remove esbuild for node only file system library ([3bb4a0f](https://github.com/V-ed/class-importer/commit/3bb4a0ffca6cd26c86ac2d86f242fca91c4379ba))
+
 ### [0.1.4](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.3...class-importer-v0.1.4) (2022-05-10)
 
 
