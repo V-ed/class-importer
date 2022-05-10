@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.6](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.5...class-importer-v0.1.6) (2022-05-10)
+
+
+### Bug Fixes
+
+* build commonjs module ([bf9915b](https://github.com/V-ed/class-importer/commit/bf9915bea0a18d21a7af64141dee590a6c84af58))
+
 ### [0.1.5](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.4...class-importer-v0.1.5) (2022-05-10)
 
 
