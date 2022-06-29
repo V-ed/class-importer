@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.8...class-importer-v0.2.0) (2022-06-29)
+
+
+### Features
+
+* **build:** properly build using pkgroll to fix CJS/ESM issues ([ff0a063](https://github.com/V-ed/class-importer/commit/ff0a0635ccd143ad417399bdb79bd19a15657b85))
+
+
+### Bug Fixes
+
+* change main to module to tell node to load esm ([ac2df06](https://github.com/V-ed/class-importer/commit/ac2df060e0d37234579be6c1deae72000fb10d85))
+
 ### [0.1.8](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.7...class-importer-v0.1.8) (2022-05-10)
 
 
