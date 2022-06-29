@@ -21,8 +21,7 @@
     "test": "vitest --config tests/.vitest/vitest.config.ts"
   },
   "files": [
-    "src/**/*",
-    "dist/**/*"
+    "dist"
   ],
   "repository": {
     "type": "git",
