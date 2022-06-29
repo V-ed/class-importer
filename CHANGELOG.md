@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.1...class-importer-v0.2.2) (2022-06-29)
+
+
+### Bug Fixes
+
+* **build:** remove src files from built package ([53cfcd9](https://github.com/V-ed/class-importer/commit/53cfcd9cf65f1e55ff233e2f48e3571c04e69d1c))
+
 ## [0.2.1](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.0...class-importer-v0.2.1) (2022-06-29)
 
 
