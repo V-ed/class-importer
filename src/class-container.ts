@@ -1,21 +1,6 @@
 import path from 'path';
 import readdir from 'recursive-readdir';
-
-// eslint-disable-next-line @typescript-eslint/ban-types
-type ClassDescriptor = Function & { prototype: Function['prototype'] };
-
-type Ctor<T> = { new (): T };
-
-/**
- * Create
- *
- * @param type
- * @param dirPaths
- * @returns
- */
-export function importClasses<T extends ClassDescriptor>(type: T, ...dirPaths: string[]) {
-	return new ClassContainer(type, ...dirPaths);
-}
+import type { ClassDescriptor, Ctor } from './types';
 
 export class ClassContainer<T extends ClassDescriptor> {
 	readonly type: T;
@@ -25,7 +10,7 @@ export class ClassContainer<T extends ClassDescriptor> {
 
 	constructor(type: T, ...dirPaths: string[]) {
 		this.type = type;
-		this.dirPaths = dirPaths;
+		this.dirPaths = dirPaths.length ? dirPaths : ['.'];
 	}
 
 	async getClasses() {
@@ -81,5 +66,3 @@ export class ClassContainer<T extends ClassDescriptor> {
 		return allSubclasses;
 	}
 }
-
-export default ClassContainer;
