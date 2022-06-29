@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.0...class-importer-v0.2.1) (2022-06-29)
+
+
+### Bug Fixes
+
+* **build:** try fixing typescript issues by bundling src folder ([c1df081](https://github.com/V-ed/class-importer/commit/c1df081e9244b0b4d47c469aa4058af5e0a6ccbb))
+
 ## [0.2.0](https://github.com/V-ed/class-importer/compare/class-importer-v0.1.8...class-importer-v0.2.0) (2022-06-29)
 
 
