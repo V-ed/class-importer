@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.2...class-importer-v0.2.3) (2022-07-12)
+
+
+### Bug Fixes
+
+* **build:** move to tsup and only output esm build ([250a39f](https://github.com/V-ed/class-importer/commit/250a39f231d6ddf1568dd8c77c633571386aa23d))
+
 ## [0.2.2](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.1...class-importer-v0.2.2) (2022-06-29)
 
 
