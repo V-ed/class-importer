@@ -14,7 +14,7 @@ specifiers:
   tsup: 6.2.3
   typescript: 4.8.3
   unbuild: 0.8.11
-  vite-tsconfig-paths: 3.5.0
+  vite-tsconfig-paths: 3.5.1
   vitest: 0.18.0
 
 dependencies:
@@ -33,7 +33,7 @@ devDependencies:
   tsup: 6.2.3_typescript@4.8.3
   typescript: 4.8.3
   unbuild: 0.8.11
-  vite-tsconfig-paths: 3.5.0
+  vite-tsconfig-paths: 3.5.1
   vitest: 0.18.0_c8@7.12.0
 
 packages:
@@ -3420,8 +3420,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-tsconfig-paths/3.5.0:
-    resolution: {integrity: sha512-NKIubr7gXgh/3uniQaOytSg+aKWPrjquP6anAy+zCWEn6h9fB8z2/qdlfQrTgZWaXJ2pHVlllrSdRZltHn9P4g==}
+  /vite-tsconfig-paths/3.5.1:
+    resolution: {integrity: sha512-t7cPvDMDxOCUxxNLqngXiX+L6jPYBr+eMgkeVadknxBb89d2s1aejz+wFEep010VfXjGVAUWGEFPe1fkRYTFvg==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
