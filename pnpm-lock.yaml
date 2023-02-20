@@ -7,7 +7,7 @@ specifiers:
   '@v-ed/prettier-config': 0.1.2
   '@v-ed/tsconfig': 0.2.0
   '@vitest/coverage-c8': 0.28.4
-  c8: 7.12.0
+  c8: 7.13.0
   eslint: 8.33.0
   npm-run-all: 4.1.5
   prettier: 2.8.4
@@ -27,7 +27,7 @@ devDependencies:
   '@v-ed/prettier-config': 0.1.2
   '@v-ed/tsconfig': 0.2.0
   '@vitest/coverage-c8': 0.28.4
-  c8: 7.12.0
+  c8: 7.13.0
   eslint: 8.33.0
   npm-run-all: 4.1.5
   prettier: 2.8.4
@@ -526,7 +526,7 @@ packages:
   /@vitest/coverage-c8/0.28.4:
     resolution: {integrity: sha512-btelLBxaWhHnywXRQxDlrvPhGdnuIaD3XulsxcZRIcnpLPbFu39dNTT0IYu2QWP2ZZrV0AmNtdLIfD4c77zMAg==}
     dependencies:
-      c8: 7.12.0
+      c8: 7.13.0
       picocolors: 1.0.0
       std-env: 3.3.2
       vitest: 0.28.4
@@ -698,8 +698,8 @@ packages:
       load-tsconfig: 0.2.3
     dev: true
 
-  /c8/7.12.0:
-    resolution: {integrity: sha512-CtgQrHOkyxr5koX1wEUmN/5cfDa2ckbHRA4Gy5LAL0zaCFtVWJS5++n+w4/sr2GWGerBxgTjpKeDclk/Qk6W/A==}
+  /c8/7.13.0:
+    resolution: {integrity: sha512-/NL4hQTv1gBL6J6ei80zu3IiTrmePDKXKXOTLpHvcIWZTVYQlDhVWjjWvkhICylE8EwwnMVzDZugCvdx0/DIIA==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
