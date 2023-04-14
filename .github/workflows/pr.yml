@@ -21,10 +21,16 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      - name: Get pnpm store directory
+        id: pnpm-store-path
+        shell: bash
+        run: |
+          echo "pnpm_store_path=$(pnpm store path)" >> $GITHUB_OUTPUT
+
       - name: Retrieve pnpm modules
         uses: actions/cache@v3
         with:
-          path: ~/.local/share/pnpm/store
+          path: ${{ steps.pnpm-store-path.outputs.pnpm_store_path }}
           key: install-${{ env.NODE_VERSION }}-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             install-${{ env.NODE_VERSION }}-${{ runner.os }}-

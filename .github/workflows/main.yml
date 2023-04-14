@@ -20,6 +20,7 @@ jobs:
 
     outputs:
       should_skip: ${{ steps.skip_check.outputs.should_skip }}
+      pnpm_store_path: ${{ steps.pnpm-store-path.outputs.pnpm_store_path }}
 
     steps:
       - uses: actions/checkout@v3
@@ -32,12 +33,18 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v4
         continue-on-error: true
 
+      - name: Get pnpm store directory
+        id: pnpm-store-path
+        shell: bash
+        run: |
+          echo "pnpm_store_path=$(pnpm store path)" >> $GITHUB_OUTPUT
+
       - name: Cache pnpm modules
         id: cache-modules
         if: steps.skip_check.outputs.should_skip != 'true'
         uses: actions/cache@v3
         with:
-          path: ~/.local/share/pnpm/store
+          path: ${{ steps.pnpm-store-path.outputs.pnpm_store_path }}
           key: install-${{ env.NODE_VERSION }}-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
 
       - name: Install packages
@@ -65,7 +72,7 @@ jobs:
       - name: Retrieve pnpm modules
         uses: actions/cache@v3
         with:
-          path: ~/.local/share/pnpm/store
+          path: ${{ needs.cache-modules.outputs.pnpm_store_path }}
           key: install-${{ env.NODE_VERSION }}-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             install-${{ env.NODE_VERSION }}-${{ runner.os }}-
@@ -99,7 +106,7 @@ jobs:
       - name: Retrieve pnpm modules
         uses: actions/cache@v3
         with:
-          path: ~/.local/share/pnpm/store
+          path: ${{ needs.cache-modules.outputs.pnpm_store_path }}
           key: install-${{ env.NODE_VERSION }}-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             install-${{ env.NODE_VERSION }}-${{ runner.os }}-
@@ -130,7 +137,7 @@ jobs:
       - name: Retrieve pnpm modules
         uses: actions/cache@v3
         with:
-          path: ~/.local/share/pnpm/store
+          path: ${{ needs.cache-modules.outputs.pnpm_store_path }}
           key: install-${{ env.NODE_VERSION }}-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             install-${{ env.NODE_VERSION }}-${{ runner.os }}-
