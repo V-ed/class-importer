@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.6](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.5...class-importer-v0.2.6) (2023-04-19)
+
+
+### Bug Fixes
+
+* revert removing package.exports ([96b9a57](https://github.com/V-ed/class-importer/commit/96b9a574ee9b2f662d65c2a8860e4042fb017e72))
+
 ## [0.2.5](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.4...class-importer-v0.2.5) (2023-04-19)
 
 
