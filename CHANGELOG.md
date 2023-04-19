@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.3...class-importer-v0.2.4) (2023-04-19)
+
+
+### Bug Fixes
+
+* include cjs in bundling ([b731788](https://github.com/V-ed/class-importer/commit/b731788c955c9db28e68dbba878f9036341e0dff))
+
 ## [0.2.3](https://github.com/V-ed/class-importer/compare/class-importer-v0.2.2...class-importer-v0.2.3) (2022-07-12)
 
 

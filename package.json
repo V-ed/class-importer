@@ -1,6 +1,6 @@
 {
   "name": "class-importer",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "node js class importer - import default classes of folder and subfolders based on class",
   "type": "module",
   "module": "dist/index.js",
@@ -18,7 +18,10 @@
     "sourcemap": true,
     "dts": true,
     "clean": true,
-    "format": ["esm", "cjs"]
+    "format": [
+      "esm",
+      "cjs"
+    ]
   },
   "scripts": {
     "build": "tsup",
