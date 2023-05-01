@@ -43,8 +43,8 @@ devDependencies:
     specifier: 4.9.5
     version: 4.9.5
   vite-tsconfig-paths:
-    specifier: 4.0.8
-    version: 4.0.8(typescript@4.9.5)
+    specifier: 4.2.0
+    version: 4.2.0(typescript@4.9.5)
   vitest:
     specifier: 0.29.2
     version: 0.29.2
@@ -2622,8 +2622,8 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@4.0.8(typescript@4.9.5):
-    resolution: {integrity: sha512-p04zH+Ey+NT78571x0pdX7nVRIJSlmKVvYryFglSWOK3Hc72eDL0+JJfbyQiugaIBApJkaEqbBQvqpsFZOSVGg==}
+  /vite-tsconfig-paths@4.2.0(typescript@4.9.5):
+    resolution: {integrity: sha512-jGpus0eUy5qbbMVGiTxCL1iB9ZGN6Bd37VGLJU39kTDD6ZfULTTb1bcc5IeTWqWJKiWV5YihCaibeASPiGi8kw==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
