@@ -14,8 +14,8 @@ devDependencies:
     specifier: 16.18.3
     version: 16.18.3
   '@types/recursive-readdir':
-    specifier: 2.2.2
-    version: 2.2.2
+    specifier: 2.2.3
+    version: 2.2.3
   '@v-ed/eslint-config':
     specifier: 0.1.6
     version: 0.1.6(eslint@8.51.0)(typescript@5.2.2)
@@ -615,8 +615,8 @@ packages:
     resolution: {integrity: sha512-jh6m0QUhIRcZpNv7Z/rpN+ZWXOicUUQbSoWks7Htkbb9IjFQj4kzcX/xFCkjstCj5flMsN8FiSvt+q+Tcs4Llg==}
     dev: true
 
-  /@types/recursive-readdir@2.2.2:
-    resolution: {integrity: sha512-pYLuc3EaFA3SwYfZRC6cSV9TfL+0tLi9Otu2djGavsNhmrEna1yG1EkFOZW7SKJr/nIuDNk4mM6kMMpNLntIhw==}
+  /@types/recursive-readdir@2.2.3:
+    resolution: {integrity: sha512-fhOVQ23ki+GB0WGmJJF9OwPBjel2Iv02pmEv58T0DZqIAlKnyhAaC2E9/LuKQLIZF88w7ivXSZXJtvEXGXFgeQ==}
     dependencies:
       '@types/node': 16.18.3
     dev: true
