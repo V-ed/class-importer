@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "@types/node": "16.18.3",
-    "@types/recursive-readdir": "2.2.3",
+    "@types/recursive-readdir": "2.2.4",
     "@v-ed/eslint-config": "0.1.6",
     "@v-ed/prettier-config": "0.3.0",
     "@v-ed/tsconfig": "0.3.0",
