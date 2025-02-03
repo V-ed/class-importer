@@ -18,7 +18,7 @@ devDependencies:
     version: 2.2.4
   '@v-ed/eslint-config':
     specifier: 0.2.3
-    version: 0.2.3(@eslint/js@9.17.0)(eslint@9.18.0)(typescript-eslint@8.18.2)(typescript@5.7.3)
+    version: 0.2.3(@eslint/js@9.18.0)(eslint@9.18.0)(typescript-eslint@8.18.2)(typescript@5.7.3)
   '@v-ed/prettier-config':
     specifier: 0.3.0
     version: 0.3.0(prettier@3.4.2)(svelte@3.59.1)
@@ -38,8 +38,8 @@ devDependencies:
     specifier: 3.4.2
     version: 3.4.2
   tsup:
-    specifier: 8.3.5
-    version: 8.3.5(typescript@5.7.3)
+    specifier: 8.3.6
+    version: 8.3.6(typescript@5.7.3)
   typescript:
     specifier: 5.7.3
     version: 5.7.3
@@ -559,11 +559,6 @@ packages:
       - supports-color
     dev: true
 
-  /@eslint/js@9.17.0:
-    resolution: {integrity: sha512-Sxc4hqcs1kTu0iID3kcZDW3JHq2a77HO9P8CP6YEA/FpH3Ll8UXE2r/86Rz9YJLKme39S9vU5OWNjC6Xl0Cr3w==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
-    dev: true
-
   /@eslint/js@9.18.0:
     resolution: {integrity: sha512-fK6L7rxcq6/z+AaQMtiFTkvbHkBLNlwyRxHpKawP0x3u9+NC6MQTnFW+AdpwC6gfHTW0051cokQgtTN2FqlxQA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -963,7 +958,7 @@ packages:
       eslint-visitor-keys: 4.2.0
     dev: true
 
-  /@v-ed/eslint-config@0.2.3(@eslint/js@9.17.0)(eslint@9.18.0)(typescript-eslint@8.18.2)(typescript@5.7.3):
+  /@v-ed/eslint-config@0.2.3(@eslint/js@9.18.0)(eslint@9.18.0)(typescript-eslint@8.18.2)(typescript@5.7.3):
     resolution: {integrity: sha512-mmICie5kyYat5KhohUemQXLpAsTxe9lal8dozGHsEk2Snfge88u179AZoD1GdwBNwqFfbJBqOVtsd+m8fs5dww==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -972,7 +967,7 @@ packages:
       typescript: '*'
       typescript-eslint: '>=8'
     dependencies:
-      '@eslint/js': 9.17.0
+      '@eslint/js': 9.18.0
       eslint: 9.18.0
       typescript: 5.7.3
       typescript-eslint: 8.18.2(eslint@9.18.0)(typescript@5.7.3)
@@ -2323,8 +2318,8 @@ packages:
       typescript: 5.7.3
     dev: true
 
-  /tsup@8.3.5(typescript@5.7.3):
-    resolution: {integrity: sha512-Tunf6r6m6tnZsG9GYWndg0z8dEV7fD733VBFzFJ5Vcm1FtlXB8xBD/rtrBi2a3YKEV7hHtxiZtW5EAVADoe1pA==}
+  /tsup@8.3.6(typescript@5.7.3):
+    resolution: {integrity: sha512-XkVtlDV/58S9Ye0JxUUTcrQk4S+EqlOHKzg6Roa62rdjL1nGWNUstG0xgI4vanHdfIpjP448J8vlN0oK6XOJ5g==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
