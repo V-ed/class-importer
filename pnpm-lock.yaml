@@ -44,8 +44,8 @@ devDependencies:
     specifier: 5.9.3
     version: 5.9.3
   vite-tsconfig-paths:
-    specifier: 6.1.0
-    version: 6.1.0(typescript@5.9.3)(vite@5.0.7)
+    specifier: 6.1.1
+    version: 6.1.1(typescript@5.9.3)(vite@5.0.7)
   vitest:
     specifier: 3.2.4
     version: 3.2.4(@types/node@16.18.3)
@@ -538,11 +538,6 @@ packages:
       eslint-visitor-keys: 3.4.3
     dev: true
 
-  /@eslint-community/regexpp@4.12.1:
-    resolution: {integrity: sha512-CCZCDJuduB9OUkFkY2IgppNZMi2lBQgD2qzwXkEia16cge2pijY/aXi96CJMquDMn3nJdlPV1A5KrJEXwfLNzQ==}
-    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
-    dev: true
-
   /@eslint-community/regexpp@4.12.2:
     resolution: {integrity: sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
@@ -902,7 +897,7 @@ packages:
       eslint: ^8.57.0 || ^9.0.0
       typescript: '>=4.8.4 <5.8.0'
     dependencies:
-      '@eslint-community/regexpp': 4.12.1
+      '@eslint-community/regexpp': 4.12.2
       '@typescript-eslint/parser': 8.18.2(eslint@10.0.0)(typescript@5.9.3)
       '@typescript-eslint/scope-manager': 8.18.2
       '@typescript-eslint/type-utils': 8.18.2(eslint@10.0.0)(typescript@5.9.3)
@@ -2459,8 +2454,8 @@ packages:
       - terser
     dev: true
 
-  /vite-tsconfig-paths@6.1.0(typescript@5.9.3)(vite@5.0.7):
-    resolution: {integrity: sha512-kpd3sY9glHIDaq4V/Tlc1Y8WaKtutoc3B525GHxEVKWX42FKfQsXvjFOemu1I8VIN8pNbrMLWVTbW79JaRUxKg==}
+  /vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@5.0.7):
+    resolution: {integrity: sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==}
     peerDependencies:
       vite: '*'
     dependencies:
